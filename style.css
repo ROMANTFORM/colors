@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kalam', cursive;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+ul, ol{
+    list-style: none;
+}
+.main-title{
+    font-size: 2rem;
+    color: #222222;
+    text-align: center;
+    margin: 15px 0;
+}
+.main-container {
+    height: 89vh;
+    display: flex;
+}
+.col {
+    flex: 1;
+    background-color: #c1c1c1;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.col__title {
+    padding: 10px;
+    color: #222222;
+    cursor: pointer;
+    transition: all 300ms linear;
+}
+.col__title:hover{
+    border-bottom: 1px solid;
+    border-radius: 50%;
+    transition: all 300ms linear;
+}
+.col__btn {
+    font-size: 2rem;
+    outline: none;
+}
