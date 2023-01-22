@@ -23,6 +23,11 @@ ul, ol{
     text-align: center;
     margin: 15px 0;
 }
+.title-descr{
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+}
 .main-container {
     height: 89vh;
     display: flex;
